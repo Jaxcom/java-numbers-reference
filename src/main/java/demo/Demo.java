@@ -30,7 +30,6 @@ public class Demo {
          .account("1")
          .username("systemUser")
          .password("systemUser")
-         .baseUrl("https://admin.qa.dashboard.bandwidth.com/api")
          .build()) {
 
          // Search for available numbers
@@ -105,18 +104,6 @@ public class Demo {
             .siteId("1")
             .peerId("500539")
             .lataSearchAndOrderType(lataSearchAndOrderType)
-            .build();
-
-         tryOrder(numbersClient, order);
-
-         NpaNxxSearchAndOrderType npaNxxSearchAndOrderType = NpaNxxSearchAndOrderType.builder()
-            .npaNxx("540449")
-            .quantity(2)
-            .build();
-         order = Order.builder()
-            .siteId("1")
-            .peerId("500539")
-            .npaNxxSearchAndOrderType(npaNxxSearchAndOrderType)
             .build();
 
          tryOrder(numbersClient, order);
