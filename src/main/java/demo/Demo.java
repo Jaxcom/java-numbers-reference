@@ -9,7 +9,6 @@ import com.bandwidth.sdk.numbers.models.orders.CitySearchAndOrderType;
 import com.bandwidth.sdk.numbers.models.orders.CombinedSearchAndOrderType;
 import com.bandwidth.sdk.numbers.models.orders.ExistingTelephoneNumberOrderType;
 import com.bandwidth.sdk.numbers.models.orders.LataSearchAndOrderType;
-import com.bandwidth.sdk.numbers.models.orders.NpaNxxSearchAndOrderType;
 import com.bandwidth.sdk.numbers.models.orders.Order;
 import com.bandwidth.sdk.numbers.models.orders.OrderResponse;
 import com.bandwidth.sdk.numbers.models.orders.RateCenterSearchAndOrderType;
