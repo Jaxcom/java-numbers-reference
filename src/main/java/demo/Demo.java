@@ -27,8 +27,8 @@ public class Demo {
 
       try (NumbersClientImpl numbersClient = NumbersClientImpl.builder()
          .account("1")
-         .username("systemUser")
-         .password("systemUser")
+         .username("username")
+         .password("password")
          .build()) {
 
          // Search for available numbers
